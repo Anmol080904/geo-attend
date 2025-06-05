@@ -1,0 +1,80 @@
+/* Center the entire container on the page */
+.profile-container {
+  min-height: 100vh;
+  width: 100vw;
+
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  background: black;
+}
+
+/* The profile card itself */
+.profile-card {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.profile-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #fefefe;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-card p {
+  font-size: 16px;
+  color: #34495e;
+  margin: 0.6rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.company-info {
+  margin-top: 2rem;
+  background-color: #f4f6f7;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+}
+
+.company-info h3 {
+  margin-bottom: 0.8rem;
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.location-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.location-link:hover {
+  text-decoration: underline;
+}
+
+.loading {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+}
+body{
+  background-color: black;
+}

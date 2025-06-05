@@ -1,0 +1,70 @@
+/* Center the form on the screen */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* Optional: black background as seen in screenshot */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* The form card */
+.update-container {
+  max-width: 500px;
+  width: 100vw;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.update-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form fields and button */
+.update-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-form input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #1a1a1a; /* match your current black field style */
+  color: white;
+}
+
+.update-form input::placeholder {
+  color: #aaa;
+}
+
+.update-form button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.update-form button:hover {
+  background-color: #0056b3;
+}
+
+.status-message {
+  text-align: center;
+  margin-bottom: 15px;
+  color: green;
+}

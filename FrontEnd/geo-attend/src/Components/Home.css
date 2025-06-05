@@ -1,0 +1,146 @@
+/* Home.css */
+
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #2d3250;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  margin-top: 500px;
+}
+.home-hero {
+  background-color: #2d3250;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  display: block;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #f9b17a;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home-button {
+  text-decoration: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+.home-button.login {
+  background-color: #676f9d;
+  color: #ffffff;
+}
+
+.home-button.login:hover {
+  background-color: #424769;
+}
+
+.home-button.signup {
+  background-color: #f9b17a;
+  color: #2d3250;
+}
+
+.home-button.signup:hover {
+  background-color: #ffc091;
+}
+
+.home-features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #f7f7f7;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(45, 50, 80, 0.1);
+  text-align: center;
+}
+
+.feature-box h3 {
+  color: #2d3250;
+  margin-bottom: 10px;
+}
+
+.feature-box p {
+  color: #424769;
+}
+
+.home-how-it-works {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.home-how-it-works h2 {
+  color: #2d3250;
+  margin-bottom: 20px;
+}
+
+.home-how-it-works ol {
+  list-style-position: inside;
+  color: #424769;
+  line-height: 1.6;
+}
+
+.home-testimonials {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.home-testimonials h2 {
+  color: #2d3250;
+  margin-bottom: 20px;
+}
+
+.home-testimonials blockquote {
+  font-style: italic;
+  color: #676f9d;
+  margin-bottom: 15px;
+}
+
+.home-footer {
+  background-color: #2d3250;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #f9b17a;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-social span {
+  font-size: 1.2rem;
+  margin: 0 5px;
+}

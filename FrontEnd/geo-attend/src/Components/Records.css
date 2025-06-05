@@ -1,0 +1,94 @@
+.summary-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 40px;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: wheat;
+}
+
+.summary-container h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #4a148c;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+.summary-table th,
+.summary-table td {
+  padding: 15px 20px;
+  text-align: left; /* Align text to the left for readability */
+  font-size: 1rem;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+.summary-table th:nth-child(1),
+.summary-table td:nth-child(1) {
+  width: 20%;
+}
+
+.summary-table th:nth-child(2),
+.summary-table td:nth-child(2) {
+  width: 20%;
+}
+
+.summary-table th:nth-child(3),
+.summary-table td:nth-child(3) {
+  width: 20%;
+}
+
+.summary-table th:nth-child(4),
+.summary-table td:nth-child(4) {
+  width: 40%;
+}
+
+.summary-table tr:hover {
+  background-color: #f1f1ff;
+  transition: background-color 0.3s ease;
+}
+
+input[type="text"] {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #7b1fa2;
+  box-shadow: 0 0 0 3px rgba(123, 31, 162, 0.2);
+}
+
+button {
+  background-color: #7b1fa2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6a1b9a;
+}

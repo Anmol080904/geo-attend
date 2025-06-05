@@ -1,0 +1,90 @@
+/* Shared container for login/signup */
+.login-container, .signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 0 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+              url('/images/map-bg2.webp') no-repeat center center / cover;
+}
+
+/* Login/signup form box */
+.login-form-box, .signup-form-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
+  text-align: center;
+}
+
+/* Heading styling */
+.login-heading, .signup-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #2d3250;
+}
+
+/* Input styling */
+.login-input, .signup-input {
+  width: 250px;
+  padding: 12px 18px;
+  margin-bottom: 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #111;
+  color: #eee;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.login-input::placeholder, .signup-input::placeholder {
+  color: #aaa;
+}
+
+.login-input:focus, .signup-input:focus {
+  box-shadow: 0 0 0 3px rgba(93, 86, 250, 0.3);
+}
+
+/* Button styling */
+.login-button, .signup-button {
+  width: 285px;
+  background-color: #2d3250;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.login-button:hover, .signup-button:hover {
+  background-color: #424769;
+}
+
+/* Footer text */
+.login-footer-text, .signup-footer-text {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+}
+
+.login-footer-text a, .signup-footer-text a {
+  color: #2d3250;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-footer-text a:hover, .signup-footer-text a:hover {
+  text-decoration: underline;
+}
